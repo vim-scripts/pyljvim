@@ -1,0 +1,25 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1724
+
+pyljvim is a a Livejournal Plugin for Vim. One can post to the Livejournal  directly from vim! :)
+
+How to use pyljvim:
+1) Provide Configfile.txt required details and Install it on your platform
+2) Two Templates for posting are provided
+
+:LJTemplate standart
+
+OR
+
+:LJTemplate extended
+
+Fill in the details. Subject is a must.
+3) Give a Space after those details and type your text to the world at LJ.
+4) When you have finished typing it, do a:
+
+:LJPost
+
+5) Your post is online.
+
+-- 
+Senthil
+http://phoe6.livejournal.com
