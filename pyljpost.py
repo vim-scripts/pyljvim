@@ -1,4 +1,4 @@
-#!/usr/bin/python 
+#!/usr/bin/python
 
 #
 #
@@ -158,10 +158,10 @@ for line in bodylines:
 post["event"] = result_line
 
 # Setting up the Proxy Address
-if USE_PROXY:
-  proxy_ip = "PROXY_IP:PROXY_PORT"
-  proxy_user = "PROXY_USER"
-  proxy_password_orig= "PROXY_PASSWORD"
+if False:
+  proxy_ip = "10.10.10.10:80"
+  proxy_user = "senthil_or"
+  proxy_password_orig= "Password"
   proxy_password = urllib.quote(proxy_password_orig,"")
 
   # Setup the Proxy with urllib2
